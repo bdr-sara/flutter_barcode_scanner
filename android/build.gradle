@@ -22,7 +22,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    namespace 'com.example.flutter_barcode_scanner' // Use the appropriate package name
+    namespace 'com.amolg.flutterbarcodescanner' // Use the appropriate package name
     compileSdkVersion 33
 
     defaultConfig {
