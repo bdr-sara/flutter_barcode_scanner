@@ -22,7 +22,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 30
+    namespace 'com.example.flutter_barcode_scanner' // Use the appropriate package name
+    compileSdkVersion 33
 
     defaultConfig {
         minSdkVersion 16
